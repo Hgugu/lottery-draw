@@ -1,0 +1,33 @@
+/*初始化样式 */
+body, div, p, h1, h2, h3, h4, h5, form, table, dl, dt, dd, ul, li, a, img, span, em, i, strong, b, input, textarea, select, label {margin: 0px;padding: 0px;}
+li {list-style: none;}
+img {border: 0 none;vertical-align: top;}
+em, i {font-style: normal;}
+a {color: #fffc00;text-decoration: none;}
+a:hover {color: #ffeb00;}
+.clearFix {width: 1004px;height: auto;margin: 0 auto;}
+.clearFix:after {display: block;clear: both;height: 0;visibility: hidden;content: '.';}
+/*苹果input按钮背景有渐变色*/
+input,button{cursor: pointer;-webkit-appearance:none;}
+/*ios去除点击阴影*/
+a,img,button,input,textarea,div{-webkit-tap-highlight-color:rgba(255,255,255,0);}
+input,textarea,div{-webkit-appearance:none;}
+html {font-size: 625%;}
+body {
+    background: url("../images/bg.jpg") no-repeat left top;
+    background-size: 100% auto;
+    background-color: #e4d6f4;
+    color: #666666;
+    font-size: 0.24rem;
+    font-family: "微软雅黑";
+    max-width: 640px;
+    min-width: 320px;
+    margin: 0 auto;
+}
+#turnTable{ width: 5.17rem; height: 5.17rem; position: relative; margin: 1.31rem auto 0;}
+#turnTable .table{width: 5.17rem; height: 5.17rem; background: url("../images/turnTable.png") no-repeat; background-size: 100% 100%; display: block;}
+#turnTable .btn{width: 1.12rem; height: 1.23rem; background: url("../images/button-bg.png") no-repeat; background-size: 100% 100%; position: absolute; top: 1.89rem; left: 2.03rem;}
+.start-btn{ display: block; width: 5.8rem; height: 0.9rem; border: 0 none; margin: 0.2rem auto 0; font-size: 0.36rem; color: #121212; background: #ffb417; line-height: 0.9rem; font-weight: 600;border-radius: 0.04rem; text-align: center;}
+.rule{width: 5.8rem; height: auto; margin: 0.24rem auto 0;}
+.rule dt{ line-height: 0.52rem; color: #333333;}
+.rule dd{line-height: 0.36rem;}
